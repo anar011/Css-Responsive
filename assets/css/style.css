@@ -1,0 +1,621 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#nav {
+  height: 110px;
+}
+#nav a {
+  text-decoration: none;
+}
+#nav .tam {
+  padding-top: 25px;
+}
+#nav .logo {
+  height: 100px;
+}
+#nav .logo img {
+  height: 40px;
+  margin-top: 13px;
+}
+#nav .sale {
+  height: 100px;
+}
+#nav .sale a {
+  color: red;
+  position: relative;
+  top: 22px;
+  right: 20px;
+}
+#nav .navbar a {
+  color: grey;
+  position: relative;
+  top: 16px;
+  right: 44px;
+  font-size: 15px;
+}
+#nav .navbar-number {
+  margin-right: 30px;
+  display: flex;
+}
+#nav .navbar-number a {
+  font-size: 34px;
+  position: relative;
+  right: 22px;
+  color: black;
+  top: 9px;
+  font-weight: bold;
+}
+#nav .navbar-number .call-time span:first-child {
+  font-size: 10px;
+  color: dimgray;
+  position: relative;
+  top: 12px;
+  right: 15px;
+}
+#nav .navbar-number .call-time span:last-child {
+  font-size: 10px;
+  color: black;
+  position: relative;
+  right: 15px;
+  font-weight: bold;
+}
+#nav .navbar-language {
+  display: flex;
+  font-size: 15px;
+  position: relative;
+  right: 10px;
+  top: 20px;
+}
+#nav .navbar-language a:first-child {
+  color: black;
+  font-size: 16px;
+  margin-right: 5px;
+}
+#nav .navbar-language a:last-child {
+  color: rgb(182, 175, 175);
+  font-size: 16px;
+  margin-left: 5px;
+}
+#nav .navbar-language span {
+  color: rgb(182, 175, 175);
+}
+
+#nav-down {
+  height: 70px;
+  background-color: rgb(52, 50, 50);
+}
+#nav-down .icon-border {
+  background-color: black;
+  height: 70px;
+}
+#nav-down .icon-border i {
+  font-size: 27px;
+  color: white;
+  position: relative;
+  top: 18px;
+  left: 15px;
+}
+#nav-down .icon-border span {
+  font-size: 18px;
+  color: white;
+  position: relative;
+  top: 15px;
+  left: 20px;
+}
+#nav-down .search a {
+  text-decoration: none;
+}
+#nav-down .search .lupa {
+  height: 50px;
+  width: 600px;
+  border-radius: 10px;
+  margin-top: 8px;
+  padding-left: 10px;
+}
+#nav-down .search i {
+  position: relative;
+  right: 30px;
+  font-size: 25px;
+  color: rgb(62, 60, 60);
+}
+#nav-down .icons {
+  margin-top: 16px;
+}
+#nav-down .icons ul {
+  display: flex;
+  list-style: none;
+}
+#nav-down .icons ul i {
+  color: white;
+  font-size: 22px;
+  margin-left: 17px;
+  margin-top: 10px;
+}
+#nav-down .icons ul span {
+  position: relative;
+  top: 10px;
+  left: 8px;
+}
+#nav-down .icons span {
+  color: white;
+}
+
+#main .menu {
+  height: 500px;
+  box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+}
+#main .menu ul {
+  padding-left: 15px;
+  padding-top: 15px;
+}
+#main .menu ul li {
+  list-style: none;
+}
+#main .menu ul li:nth-child(1) {
+  background-color: whitesmoke;
+}
+#main .menu ul li a {
+  text-decoration: none;
+  font-size: 14px;
+  color: rgb(55, 54, 54);
+  justify-content: space-between;
+}
+#main .menu ul li a .red {
+  color: red;
+}
+#main .menu ul li a i {
+  font-size: 18px;
+}
+#main .menu ul li a i:nth-child(3) {
+  margin-left: 44px;
+  font-size: 13px;
+  text-align: end;
+}
+#main .menu ul li a span {
+  flex: auto;
+}
+#main .menu-image img {
+  height: 500px;
+}
+#main .empty {
+  height: 70px;
+}
+
+#main-up a img {
+  height: 110px;
+  border: none;
+  background-color: rgb(225, 223, 223);
+  border-radius: 5px;
+}
+#main-up .bike {
+  height: 110px;
+  background-color: rgb(225, 223, 223);
+  border: none;
+  border-radius: 5px;
+}
+#main-up .bike a {
+  text-decoration: none;
+}
+#main-up .bike a span {
+  font-weight: bold;
+}
+#main-up .bike a span:first-child {
+  color: black;
+  position: relative;
+  top: 20px;
+  left: 10px;
+}
+#main-up .bike a span:nth-child(2) {
+  color: rgb(71, 69, 69);
+  font-size: 13px;
+  position: relative;
+  top: 20px;
+  left: 10px;
+}
+#main-up .bike a span:last-child {
+  color: rgb(71, 69, 69);
+  font-size: 13px;
+  position: relative;
+  top: 13px;
+  left: 10px;
+}
+#main-up .safe {
+  height: 110px;
+  background-color: rgb(225, 223, 223);
+  border-radius: 5px;
+}
+#main-up .safe a {
+  text-decoration: none;
+}
+#main-up .safe span {
+  font-weight: bold;
+}
+#main-up .safe span:first-child {
+  color: black;
+  position: relative;
+  top: 22px;
+  left: 14px;
+}
+#main-up .safe span:last-child {
+  color: rgb(71, 69, 69);
+  font-size: 13px;
+  position: relative;
+  top: 18px;
+  left: 14px;
+}
+#main-up .arrow {
+  height: 110px;
+  background-color: rgb(225, 223, 223);
+  border-radius: 5px;
+}
+#main-up .arrow a {
+  text-decoration: none;
+}
+#main-up .arrow a span {
+  font-weight: bold;
+}
+#main-up .arrow a span:first-child {
+  color: black;
+  position: relative;
+  top: 20px;
+  left: 10px;
+}
+#main-up .arrow a span:nth-child(2) {
+  color: rgb(71, 69, 69);
+  font-size: 13px;
+  position: relative;
+  top: 20px;
+  left: 10px;
+}
+#main-up .arrow a span:last-child {
+  color: rgb(71, 69, 69);
+  font-size: 13px;
+  position: relative;
+  top: 16px;
+  left: 10px;
+}
+#main-up .mikrophone {
+  height: 110px;
+  background-color: rgb(225, 223, 223);
+  border-radius: 5px;
+}
+#main-up .mikrophone a {
+  text-decoration: none;
+}
+#main-up .mikrophone a .child-2 {
+  color: rgb(71, 69, 69);
+  font-size: 13px;
+  position: relative;
+  top: 20px;
+  left: 10px;
+}
+#main-up .mikrophone a span {
+  font-weight: bold;
+}
+#main-up .mikrophone a span:first-child {
+  color: black;
+  position: relative;
+  top: 20px;
+  left: 10px;
+}
+#main-up .mikrophone a span:last-child {
+  color: rgb(71, 69, 69);
+  font-size: 13px;
+  position: relative;
+  top: 13px;
+  left: 10px;
+}
+#main-up .empty {
+  height: 70px;
+}
+#main-up .new {
+  height: 45px;
+}
+#main-up .new span {
+  font-weight: bold;
+  font-size: 20px;
+}
+#main-up .new a {
+  color: rgb(55, 52, 52);
+  margin-left: 15px;
+  text-decoration: none;
+}
+
+#news .card {
+  height: 710px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#news .card .card-one ul {
+  text-align: right;
+  position: relative;
+  top: 20px;
+}
+#news .card .card-one ul a {
+  text-decoration: none;
+}
+#news .card .card-one ul a i {
+  font-size: 20px;
+  color: rgb(84, 84, 84);
+}
+#news .card .card-body ul {
+  display: flex;
+  list-style: none;
+}
+#news .card .card-body ul li:first-child p {
+  background-color: green;
+  position: relative;
+  right: 25px;
+  color: white;
+  font-size: 13px;
+}
+#news .card .card-body ul li:nth-child(2) p {
+  background-color: blueviolet;
+  position: relative;
+  right: 10px;
+  color: white;
+  font-size: 13px;
+}
+#news .card .card-body ul li:nth-child(3) p {
+  background-color: rgb(163, 214, 112);
+  color: green;
+  font-size: 13px;
+}
+#news .card .card-body .blue {
+  background-color: blue;
+  color: white;
+  font-size: 13px;
+  position: relative;
+  bottom: 30px;
+  left: 5px;
+}
+#news .card .card-body .card-text {
+  font-weight: bold;
+}
+#news .card .card-body .icons a {
+  text-decoration: none;
+}
+#news .card .card-body .icons a i {
+  color: rgb(186, 182, 182);
+}
+#news .card .card-body .icons a span {
+  color: rgb(186, 182, 182);
+}
+#news .card .card-body .card-down h3 {
+  color: black;
+}
+#news .card .card-body .card-down .button-icon {
+  text-align: right;
+}
+#news .card .card-body .card-down .button-icon a button {
+  border-radius: 50px;
+  height: 50px;
+  width: 50px;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#news .card .card-body .card-down .button-icon a button i {
+  font-size: 20px;
+  color: red;
+}
+#news .card .card-body .card-down a {
+  color: rgb(137, 137, 137);
+}
+#news .card .card-body .card-down a i {
+  color: red;
+}
+#news .card .card-body .card-down a span {
+  color: rgb(137, 137, 137);
+  position: relative;
+  left: 10px;
+}
+#news .card .imagess {
+  height: 400px;
+}
+#news .card .imagess img {
+  height: 180px;
+  margin-top: 60px;
+}
+#news .card .essential {
+  height: 400px;
+}
+#news .card .essential img {
+  height: 150px;
+  margin-top: 60px;
+}
+#news .line {
+  margin-top: 13px;
+  height: 9px;
+  border-radius: 10px;
+  background-color: rgb(220, 223, 223);
+}
+#news .line .line-red {
+  width: 260px;
+  height: 9px;
+  background-color: red;
+  border-radius: 10px;
+}
+#news .empty {
+  height: 80px;
+}
+
+#options .option-magnet {
+  height: 100px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
+}
+#options .option-magnet .option {
+  margin: 30px;
+}
+#options .option-magnet .option b:first-child {
+  color: red;
+  font-size: 35px;
+}
+#options .option-magnet .option b:last-child {
+  color: blue;
+  font-size: 35px;
+}
+#options .option-magnet .magnet {
+  margin-top: 15px;
+  margin-right: 20px;
+}
+#options .option-magnet .magnet img {
+  width: 120px;
+  height: 100px;
+}
+#options .text {
+  height: 80px;
+}
+#options .text a {
+  text-decoration: none;
+}
+#options .text a .blue {
+  border-radius: 20px;
+  background-color: royalblue;
+  width: 150px;
+  height: 40px;
+  border: none;
+  margin: 10px;
+}
+#options .text a .blue span {
+  color: white;
+}
+#options .text a button {
+  border-radius: 20px;
+  background-color: rgb(204, 206, 213);
+  width: 150px;
+  height: 40px;
+  border: none;
+  margin: 10px;
+}
+#options .text a span {
+  color: black;
+}
+#options .aksiya-time {
+  height: 380px;
+  background-color: orange;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  display: flex;
+}
+#options .aksiya-time ul {
+  margin: 60px;
+}
+#options .aksiya-time ul li {
+  color: white;
+}
+#options .aksiya-time ul li span {
+  color: white;
+}
+#options .aksiya-time .time {
+  border-radius: 15px;
+  height: 70px;
+  width: 210px;
+  background-color: rgb(232, 232, 39);
+  margin-left: 50px;
+}
+#options .aksiya-time .time span {
+  font-size: 12px;
+  font-weight: bold;
+  margin-left: 12px;
+}
+#options .aksiya-time .time h4 {
+  margin-left: 10px;
+}
+#options .aksiya-time .card {
+  margin: 6%;
+}
+#options .aksiya-time .card i {
+  color: rgb(230, 228, 228);
+}
+#options .aksiya-time .card p {
+  color: 0;
+}
+#options .aksiya-time .card .card-body a {
+  color: rgb(135, 132, 132);
+}
+#options .aksiya-time .card .card-body a i {
+  color: red;
+}
+#options .aksiya-time .card .card-body a span {
+  color: rgb(135, 132, 132);
+}
+#options .aksiya-time .card .card-body .button {
+  display: flex;
+  margin-top: 20px;
+}
+#options .aksiya-time .card .card-body .button a {
+  margin-left: 20px;
+}
+#options .empty {
+  height: 100px;
+}
+
+#footer {
+  background-color: black;
+}
+#footer .card {
+  height: 550px;
+  margin-top: 30px;
+  background-color: black;
+  border: none;
+}
+#footer .card ul {
+  background-color: black;
+  color: black;
+  list-style: none;
+}
+#footer .card ul h3 {
+  color: white;
+  position: relative;
+  top: 20px;
+}
+#footer .card ul span {
+  color: white;
+}
+#footer .card ul li {
+  position: relative;
+  top: 5px;
+}
+#footer .card ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 13px;
+}
+#footer .card .icon {
+  display: flex;
+  padding: 12px;
+}
+#footer .card .icon a {
+  text-decoration: none;
+}
+#footer .card .icon a:nth-child(2) {
+  padding-left: 15px;
+}
+#footer .card .icon a:nth-child(3) {
+  padding-left: 15px;
+}
+#footer .card .icon a i {
+  font-size: 30px;
+  color: rgb(184, 130, 130);
+  color: white;
+}
+#footer .down {
+  display: flex;
+}
+#footer .down span {
+  font-size: 11px;
+  color: whitesmoke;
+}
+#footer .down i {
+  font-size: 25px;
+  color: whitesmoke;
+}
+#footer .down a {
+  color: whitesmoke;
+  text-decoration: none;
+  font-size: 11px;
+}/*# sourceMappingURL=style.css.map */
